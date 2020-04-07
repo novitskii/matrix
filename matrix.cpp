@@ -37,6 +37,9 @@ Matrix<T>::Matrix(int n_strings, int n_columns){
         for (int count = 0; count < n_strings_; ++count)
         {elements[count] = new T[n_columns_];}
     }
+    for (int i = 0; i < n_strings_; i++){
+        for (int j = 0; j < n_columns_; j++){
+            elements[0][0]=T(0);}}
 }
 
 int main(){
