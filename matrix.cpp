@@ -40,7 +40,7 @@ Matrix<T>::Matrix(int n_strings, int n_columns){
 }
 
 int main(){
-    Matrix<double> M(2.0,2.0);
+    Matrix<double> M(2,2);
     std::cout << M;
     return 0;
 }
